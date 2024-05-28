@@ -19,9 +19,9 @@ const duplicatedIcons = [...icons, ...icons];
 const CoverLetter = ({ showResume }) => {
   const coverLetterText = `Dear JP Media Team,
 
-I am writing to express my enthusiasm for the Full-Stack JavaScript Developer position at JP Media. With over four years of experience in full-stack development using technologies such as React, Node.js, and AWS, I am confident in my ability to contribute effectively to your team. My experience includes developing scalable web applications, optimizing performance, and collaborating with cross-functional teams to deliver high-quality solutions. I am particularly drawn to JP Media's innovative approach and commitment to excellence.
+I am writing to express my enthusiasm for the Full-Stack JavaScript Developer position at JP Media. With over four years of experience in full-stack development using technologies such as React, Javascript, Node.js, and AWS, I am confident in my ability to contribute effectively to your team. My experience includes developing scalable web applications, optimising performance, and collaborating with cross-functional teams to deliver high-quality solutions. I am particularly drawn to JP Media's innovative approach and commitment to excellence.
 
-I look forward to the opportunity to discuss how my skills and experiences align with the goals of JP Media. Thank you for considering my application.
+I look forward to the opportunity to discuss how my skills and experiences align with the goals of JP Media. Please have a look at my resume for more details.
 
 Best regards,
 Rohit Kumar`;

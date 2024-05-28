@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import mailIcon from '../assests/icons/mail_incoming.png' // Adjust the path as necessary
+import mailIcon from '../assests/icons/mail_incoming.png'
 
 const MailReceived = ({ onMailOpened }) => {
     const [showMail, setShowMail] = useState(false);
@@ -7,9 +7,9 @@ const MailReceived = ({ onMailOpened }) => {
     const [showOpenText, setShowOpenText] = useState(false);
   
     useEffect(() => {
-      setTimeout(() => setShowHeresMine(true), 2000); // Delay to show "Here's mine"
-      setTimeout(() => setShowMail(true), 2500); // Delay to show mail icon after "Here's mine"
-      setTimeout(() => setShowOpenText(true), 3000); // Delay to show "Open the mail!" text
+      setTimeout(() => setShowHeresMine(true), 2000); 
+      setTimeout(() => setShowMail(true), 2500);
+      setTimeout(() => setShowOpenText(true), 3000);
     }, []);
   
     return (
@@ -29,9 +29,9 @@ const MailReceived = ({ onMailOpened }) => {
               onClick={onMailOpened}
             >
               <img 
-                src={mailIcon} // Use the imported image
+                src={mailIcon} 
                 alt="Mail Icon" 
-                className="w-48 h-48" // Double the size
+                className="w-48 h-48"
               />
             </div>
             {showOpenText && (
