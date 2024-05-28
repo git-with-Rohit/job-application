@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/job-application/static/css/main.1dab8d68.css",
+    "main.js": "/job-application/static/js/main.272c7d5e.js",
+    "static/js/453.c5dbd574.chunk.js": "/job-application/static/js/453.c5dbd574.chunk.js",
+    "static/media/movie.jpg": "/job-application/static/media/movie.0eecceabb118d058a8fb.jpg",
+    "static/media/aws.png": "/job-application/static/media/aws.850296a094250f4a242e.png",
+    "static/media/envelope.jpg": "/job-application/static/media/envelope.3571eae0265e29e4c841.jpg",
+    "static/media/mail_incoming.png": "/job-application/static/media/mail_incoming.e734bf25b131345a33e7.png",
+    "static/media/node.png": "/job-application/static/media/node.c6649cb118c1ede849ad.png",
+    "static/media/docker.png": "/job-application/static/media/docker.81203043e9acf9775726.png",
+    "static/media/python.png": "/job-application/static/media/python.04ddea1b43164f05b756.png",
+    "static/media/cpp.png": "/job-application/static/media/cpp.d7a72328ffe7d955a33e.png",
+    "static/media/tictactoe.jpg": "/job-application/static/media/tictactoe.ccb6c27872c8c187d5b3.jpg",
+    "static/media/sql.png": "/job-application/static/media/sql.977b9f837b5068320bf2.png",
+    "index.html": "/job-application/index.html",
+    "main.1dab8d68.css.map": "/job-application/static/css/main.1dab8d68.css.map",
+    "main.272c7d5e.js.map": "/job-application/static/js/main.272c7d5e.js.map",
+    "453.c5dbd574.chunk.js.map": "/job-application/static/js/453.c5dbd574.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dab8d68.css",
+    "static/js/main.272c7d5e.js"
+  ]
+}
