@@ -1,0 +1,114 @@
+{
+  "name": "Rohit Kumar",
+  "email": "connect2rohitkmr@gmail.com",
+  "location": "Adelaide, SA",
+  "phone": "0420 544 349",
+  "github": "https://github.com/git-with-Rohit",
+  "linkedin": "https://www.linkedin.com/in/itz-rohit/",
+  "summary": "Experienced full-stack software engineer with a strong background in Python, Web development, APIs, and AWS services. Proven track record of delivering innovative web applications and enhancing product performance. Familiar with LLM Dev pipelines.",
+  "skills": {
+    "key_skills": [
+      "Software Development",
+      "Web Development",
+      "Cloud Computing",
+      "User Experience (UX) Design",
+      "Technical Leadership & Mentorship",
+      "Code review & testing"
+    ],
+    "technical_skills": {
+      "Programming Languages": ["C++", "Python", "R", "JavaScript"],
+      "Web Technologies": ["HTML5", "CSS3", "React", "TypeScript", "VueJS", "Node.js", "Tailwind", "Angular", "Next.js"],
+      "Database Management": ["MySQL", "SQL", "MongoDB"],
+      "Cloud Services": ["AWS services", "Docker"],
+      "Tools & Platforms": ["REST API", "Jira", "GitLab", "FastAPI", "TensorFlow", "Deep Learning"],
+      "Testing & Version Control": ["Jest", "Selenium", "Pytest", "Git"],
+      "LLMs": ["GPT-3", "BERT"]
+    }
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "The University of Adelaide",
+      "year": "Graduated 2019"
+    },
+    {
+      "degree": "Diploma of Leadership and Management",
+      "institution": "Institute of Technology Australia",
+      "year": "Graduated 2021"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Cloud Practitioner",
+      "institution": "Amazon",
+      "year": "Achieved 2024"
+    },
+    {
+      "name": "Introduction to Deep Learning",
+      "institution": "The University of Queensland",
+      "year": "Graduated 2022"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Maptek",
+      "duration": "Jul 2021 – March 2024",
+      "responsibilities": [
+        "Contributed to the development of DomainMCF and Maptek Geology Core enhancing software performance and functionality using C#, Python, React, TypeScript, REST APIs, AWS, and Front-end technologies.",
+        "Drove the innovation of experimental products with Python, React, TypeScript, Docker, AWS, SQL, and LLM, significantly advancing our product offerings and R&D.",
+        "Utilised Python with Selenium to test web products, developed using React and deployed with Docker and AWS, for two years.",
+        "Conducted comprehensive code reviews and provided QA feedback, leading to a 25% reduction in post-deployment issues and a 15% improvement in code quality metrics.",
+        "Coordinated robust deployment strategies on AWS S3 with CloudFront & Lambda integration. This included creating and testing RESTful APIs in Flask and Swagger.",
+        "Created and tested RESTful services using Flask, JavaScript, Swagger, and pytest, ensuring comprehensive test coverage.",
+        "Developed server-side scripts using Flask and FastAPI, to add LLMs to enhance data processing and automation capabilities."
+      ],
+      "achievements": [
+        "Optimised Data Processing: Achieved a breakthrough in processing 200,000 points, cutting runtime from 6 minutes to under 20 seconds, significantly enhancing efficiency.",
+        "Leadership & Knowledge Sharing: Presented a tech talk on my block coalescing work, highlighting my role as a thought leader and raising a lot of discussion.",
+        "Initiated and led a UI component testing project using Tailwind CSS, React, and Selenium, enhancing the development of versatile, visually appealing UIs. Established project frameworks for collaboration."
+      ]
+    },
+    {
+      "title": "Frontend QA tester",
+      "company": "Stemcentre Australia",
+      "duration": "Feb 2020 – June 2021",
+      "responsibilities": [
+        "Conducted comprehensive end-to-end testing, balancing manual efforts with automated tests using Selenium, Playwright, and Python, to improve coverage and efficiency.",
+        "Coordinated with teams to prioritise and report on defect resolution."
+      ],
+      "achievements": [
+        "Played a pivotal role in defect resolution and software enhancements, boosting system stability by 40% and user satisfaction by 30% through UI/UX enhancements.",
+        "Leveraged performance testing toolkits, including Java-based tools, to optimise application response times, ensuring stability under peak loads.",
+        "Halved the testing cycle time with streamlined automated testing implementations using Java, accelerating the deployment process."
+      ]
+    },
+    {
+      "title": "Freelance Programmer",
+      "duration": "Jan 2016 – June 2021",
+      "responsibilities": [
+        "Delivered 50+ projects using C++, Python, Flask, TypeScript, React, Angular, and Node.js for 20+ clients annually.",
+        "Managed version control with Git and SVN; ensured code quality with Jest, pytest & Selenium.",
+        "Enhanced team productivity with Jira, GitLab, and Slack.",
+        "Performed debugging and bug fixes, enhancing system stability and user experience."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "name": "International Collegiate Programming Contest South Pacific",
+      "details": "Top 5 team",
+      "year": "Awarded 2019"
+    },
+    {
+      "name": "Australian eChallenge",
+      "details": "Semifinalist from The University of Adelaide & University of South Australia",
+      "year": "Awarded 2018 and 2019"
+    },
+    {
+      "name": "International Student of the Year 2016 for Academic Excellence",
+      "institution": "StudyAdelaide",
+      "year": "Awarded 2016"
+    }
+  ]
+}

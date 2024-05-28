@@ -1,0 +1,70 @@
+.cover-letter-container {
+  position: relative;
+  z-index: 10;
+}
+
+.cover-letter {
+  position: relative;
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.cover-letter h2 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #007BFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cover-letter p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Background styling */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Animated icons */
+.icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+}

@@ -1,0 +1,84 @@
+.envelope-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  overflow: hidden;
+}
+
+.envelope {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 0; /* Remove padding */
+}
+
+.envelope:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 16px 48px rgba(0, 0, 0, 0.2);
+}
+
+.envelope img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.envelope .address {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.envelope .address .to {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2em;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.envelope .address .from {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.2em;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.envelope button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.envelope button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

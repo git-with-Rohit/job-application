@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  overflow: hidden;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  50% {
+    background: linear-gradient(135deg, #c3cfe2, #f5f7fa);
+  }
+  100% {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+}
